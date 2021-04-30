@@ -1,0 +1,6 @@
+{
+    "file_name_exists": "A file with that name already exists.",
+    "file_not_found": "File not found.",
+    "file_uploaded": "File uploaded successfully.",
+    "file_deleted": "File deleted."
+}
