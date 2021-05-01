@@ -7,7 +7,7 @@
     <h2>Sobre este projeto</h2>
   
   Esta aplicação se encontra em desenvolvimento e tem o objetivo de englobar módulos que realizam o gerenciamento de arquivos .pdf .<br>
-  No momento está implementado o módulo para inserção de marca d'água nas páginas de arquivos .pdf.<br>
+  No momento está implementado o módulo para o upload de arquivos e inserção de marca d'água nas páginas de documentos .pdf.<br>
   Este módulo foi desenvolvido com propósito de aprendizado e como etapa de aplicação para [Magrathea Labs](https://magrathealabs.com/pt-br/) :rocket:
   </li>
   
