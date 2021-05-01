@@ -79,6 +79,7 @@
   <li>
     <h2>Próximas features</h2> 
     <ol>
+      <li> Gerar migrations do banco de dados </li><br>
       <li> Implementar o processo de marca d'água conforme a página indicada </li><br>
       <li> Testes unitários e de integração </li><br>
       <li> Garbage collector </li><br>
