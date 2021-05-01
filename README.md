@@ -71,7 +71,7 @@
    <li> Carregue o arquivo .pdf desejado e clique em OK.<br>
     * O arquivo não deve ser criptografado e/ou bloqueado. </li><br>
    <li> Pronto. Será gerado um respectivo arquivo .pdf com a marca d'água.</li><br>
-   <li> É possível testar os endpoints desta aplicação utilizando softwares como: [Insomnia](https://insomnia.rest/download) ou [Postman](https://www.postman.com/).</li><br>
+   <li> É possível testar os endpoints desta aplicação utilizando softwares como: Insomnia ou Postman.</li><br>
 
   </ol>
   </li>
