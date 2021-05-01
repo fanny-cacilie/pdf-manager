@@ -16,6 +16,11 @@ from app.modules.files.resources_files import (
     Files
 )
 
+from app.modules.pdfs_watermark.resources_pdfs_watermark import (
+    PdfWatermark,
+    PdfWatermarks
+)
+
 APP = Flask(__name__)
 
 load_dotenv(".env")
@@ -59,6 +64,8 @@ def index():
 API.add_resource(File, "/file/<int:file_id>")
 API.add_resource(Files, "/files")
 
+API.add_resource(PdfWatermark, "/pdf-watermark/<int:file_id>")
+API.add_resource(PdfWatermarks, "/pdf-watermarks")
 
 
 if __name__ == "__main__":

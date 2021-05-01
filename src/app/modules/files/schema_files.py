@@ -5,6 +5,6 @@ from app.modules.files.models_files import FileModel
 class FileSchema(MA.SQLAlchemyAutoSchema):
     class Meta:
         model = FileModel
-        # load_only = ("password",)
+        load_only = ("uploaded_file",)
         dump_only = ("id",)
         load_instance = True
