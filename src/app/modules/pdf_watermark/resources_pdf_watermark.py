@@ -6,9 +6,9 @@ from marshmallow import ValidationError
 from werkzeug.utils import secure_filename
 
 from app.libs.strings import gettext
-from app.modules.pdfs_watermark.models_pdfs_watermark import PdfWatermarkModel
-from app.modules.pdfs_watermark.schema_pdfs_watermark import PdfWatermarkSchema
-from app.modules.pdfs_watermark.services_pdfs_watermark import pdf_watermarker
+from app.modules.pdf_watermark.models_pdf_watermark import PdfWatermarkModel
+from app.modules.pdf_watermark.schema_pdf_watermark import PdfWatermarkSchema
+from app.modules.pdf_watermark.services_pdf_watermark import pdf_watermarker
 
 
 file_schema = PdfWatermarkSchema()

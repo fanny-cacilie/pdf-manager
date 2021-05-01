@@ -3,7 +3,7 @@ from db import DB
 
 class PdfWatermarkModel(DB.Model):
 
-    __tablename__ = "pdfs_watermark"
+    __tablename__ = "pdf_watermark"
 
     id = DB.Column(DB.Integer, primary_key=True)
     name = DB.Column(DB.String(100), nullable=False)

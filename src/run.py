@@ -16,7 +16,7 @@ from app.modules.files.resources_files import (
     Files
 )
 
-from app.modules.pdfs_watermark.resources_pdfs_watermark import (
+from app.modules.pdf_watermark.resources_pdf_watermark import (
     PdfWatermark,
     PdfWatermarks
 )

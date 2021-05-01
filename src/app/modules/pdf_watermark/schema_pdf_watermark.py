@@ -1,5 +1,5 @@
 from ma import MA
-from app.modules.pdfs_watermark.models_pdfs_watermark import PdfWatermarkModel
+from app.modules.pdf_watermark.models_pdf_watermark import PdfWatermarkModel
 
 
 class PdfWatermarkSchema(MA.SQLAlchemyAutoSchema):
