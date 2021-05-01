@@ -48,7 +48,10 @@ class PdfWatermarks(Resource):
                     "message": "File with the wrong type. Should be application/pdf"
                 }
 
+        except Exception as err:
+            raise err
 
+        try:
             timestamp = int(time.time())
             output = "{}_{}".format(timestamp, file.filename)
             path = os.path.join(UPLOAD_FOLDER, secure_filename(file.filename))
