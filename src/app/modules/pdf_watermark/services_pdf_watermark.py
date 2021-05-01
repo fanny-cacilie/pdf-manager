@@ -4,7 +4,7 @@ import PyPDF2
 
 logger = logging.getLogger(__name__)
 
-def pdf_watermarker(pdf_file, watermark):
+def pdf_watermarker(pdf_file, watermark, filename):
     """
     Function to watermark all pages of a pdf file.
     """
@@ -24,7 +24,7 @@ def pdf_watermarker(pdf_file, watermark):
             page.mergePage(watermark.getPage(0))
             output.addPage(page)
 
-            with open("./uploads/watermarked_files/watermarked_file.pdf", "wb") as file:
+            with open("./uploads/watermarked_files/" + filename, "wb") as file:
                 output.write(file)
 
     except Exception as err:

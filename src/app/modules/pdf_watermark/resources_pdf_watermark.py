@@ -1,4 +1,5 @@
 import os
+import time
 
 from flask import request
 from flask_restful import Resource
@@ -47,10 +48,13 @@ class PdfWatermarks(Resource):
                     "message": "File with the wrong type. Should be application/pdf"
                 }
 
+
+            timestamp = int(time.time())
+            filename = "{}_{}".format(timestamp, file.filename)
             path = os.path.join(UPLOAD_FOLDER, secure_filename(file.filename))
             file.save(path)
 
-            pdf_watermarker(path, watermark)
+            pdf_watermarker(path, watermark, filename)
 
         except Exception as err:
             raise err
