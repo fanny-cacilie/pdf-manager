@@ -50,11 +50,11 @@ class PdfWatermarks(Resource):
 
 
             timestamp = int(time.time())
-            filename = "{}_{}".format(timestamp, file.filename)
+            output = "{}_{}".format(timestamp, file.filename)
             path = os.path.join(UPLOAD_FOLDER, secure_filename(file.filename))
             file.save(path)
 
-            pdf_watermarker(path, watermark, filename)
+            pdf_watermarker(path, watermark, output)
 
         except Exception as err:
             raise err
