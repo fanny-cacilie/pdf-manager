@@ -11,11 +11,6 @@ from marshmallow import ValidationError
 from db import DB
 from ma import MA
 
-from app.modules.files.resources_files import (
-    File,
-    Files
-)
-
 from app.modules.pdf_watermark.resources_pdf_watermark import (
     PdfWatermark,
     PdfWatermarks
