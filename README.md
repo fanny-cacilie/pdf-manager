@@ -47,7 +47,7 @@
       <li> Primeiro, verifique se você possui <b>Python</b> instalado;</li><br>
       <li> Verifique se possui <b>pip</b> instalado de forma apropriada;</li><br>
       <li> 
-        Para instalar os requerimentos necessários, no diretório "src", rode o seguinte comando:<br><br>
+        Instale os requerimentos necessários, no diretório "/src" rode o seguinte comando:<br><br>
         * Você pode utilizar um ambiente virtual como virtualenv ou pipenv, se for de tua escolha.
                 
         $ pip install -r requirements.txt
