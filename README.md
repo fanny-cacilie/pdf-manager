@@ -22,8 +22,6 @@
   <li><a href="https://www.python.org/">Python</a></li>
   <li><a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a></li>
   <li><a href="https://www.postgresql.org/">Postgresql</a></li>
-  
-  
   </ul>
   </li>
   
