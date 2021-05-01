@@ -1,7 +1,6 @@
 import os
 
 from flask import Flask, jsonify, render_template
-from flask_migrate import Migrate
 from flask_restful import Api
 from flask_script import Manager
 
@@ -29,8 +28,6 @@ APP.config["PROPAGATE_EXCEPTIONS"] = True
 MANAGER = Manager(APP)
 
 API = Api(APP)
-
-migrate = Migrate(APP, DB)
 
 
 @MANAGER.command
