@@ -11,9 +11,9 @@ from marshmallow import ValidationError
 from db import DB
 from ma import MA
 
-from app.modules.files.resources_files import (
-    File,
-    Files
+from app.modules.pdf_watermark.resources_pdf_watermark import (
+    PdfWatermark,
+    PdfWatermarks
 )
 
 APP = Flask(__name__)
@@ -56,9 +56,8 @@ def index():
     return render_template("index.html")
 
 
-API.add_resource(File, "/file/<int:file_id>")
-API.add_resource(Files, "/files")
-
+API.add_resource(PdfWatermark, "/pdf-watermark/<int:file_id>")
+API.add_resource(PdfWatermarks, "/pdf-watermarks")
 
 
 if __name__ == "__main__":

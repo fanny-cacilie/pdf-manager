@@ -13,20 +13,30 @@
 </head>
 
 <body>
+
     <div class="container">
-        <h3>Input</h3>
+        <p>
+        <h3>PDF MANAGER</h3>
+        </p>
 
-        <form method="POST" action="/files" enctype="multipart/form-data">
+        <form method="POST" action="/pdf-watermarks" enctype="multipart/form-data">
             <div class="form-data">
-                <label for=inputFile>File Input</label>
-                <input type="file" name="inputFile">
+                <p>
+                    <label for=inputWatermark><b>- Fazer upload de arquivo PDF e inserir marca d'água:</b></label><br>
+                    <input type="file" name="inputWatermark"><br><br>
+                    <button type="submit" class="btn btn-default" style="background-color:lightblue">OK</button>
+                </p>
+                <br>
             </div>
-            <button type="submit" class="btn btn-default">OK</button>
         </form>
-
-
-        
     </div>
+
+
+
+
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
