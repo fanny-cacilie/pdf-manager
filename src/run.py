@@ -61,9 +61,6 @@ def index():
     return render_template("index.html")
 
 
-API.add_resource(File, "/file/<int:file_id>")
-API.add_resource(Files, "/files")
-
 API.add_resource(PdfWatermark, "/pdf-watermark/<int:file_id>")
 API.add_resource(PdfWatermarks, "/pdf-watermarks")
 
