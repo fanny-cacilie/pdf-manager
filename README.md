@@ -5,7 +5,7 @@
 
   <li>
     <h2>Sobre este projeto</h2>
-
+  
   Esta aplicação se encontra em desenvolvimento e tem o objetivo de englobar módulos que realizam o gerenciamento de arquivos .pdf .<br>
   No momento está implementado o módulo para inserção de marca d'água nas páginas de arquivos .pdf.<br>
   Este módulo foi desenvolvido com propósito de aprendizado e como etapa de aplicação para a [Magrathea Labs](https://magrathealabs.com/pt-br/) :rocket:
@@ -67,7 +67,7 @@
         $ python run.py
    </li>
    <br>
-   <li> Uma vez com a aplicação rodando é possível acessar seu template renderizado em [http://localhost:5000/](http://localhost:5000/).</li><br>
+   <li> Uma vez com a aplicação rodando é possível acessar seu template renderizado em http://localhost:5000/.</li><br>
    <li> Carregue o arquivo .pdf desejado e clique em OK.<br>
     * O arquivo não deve ser criptografado e/ou bloqueado. </li><br>
    <li> Pronto. Será gerado um respectivo arquivo .pdf com a marca d'água.</li><br>
