@@ -67,7 +67,7 @@
         $ python run.py
    </li>
    <br>
-   <li> Uma vez com a aplicação rodando é possível acessar seu template renderizado em http://localhost:5000/.</li><br>
+   <li> Uma vez que a aplicação esteja rodando é possível acessar o template renderizado em http://localhost:5000/.</li><br>
    <li> Carregue o arquivo .pdf desejado e clique em OK.<br>
     * O arquivo não deve ser criptografado e/ou bloqueado. </li><br>
    <li> Pronto. Será gerado um respectivo arquivo .pdf com a marca d'água.</li><br>
