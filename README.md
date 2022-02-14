@@ -6,8 +6,9 @@
   <li>
     <h2>Sobre este projeto</h2>
   
-  Esta aplicação se encontra em desenvolvimento e tem o objetivo de englobar módulos que realizam o gerenciamento de arquivos .pdf .<br>
-  No momento está implementado o módulo para o upload de arquivos e inserção de marca d'água nas páginas de documentos .pdf.<br>
+  Esta aplicação se encontra em desenvolvimento e tem o objetivo de englobar módulos que realizam o gerenciamento de arquivos .pdf .<br><br>
+  No momento está implementado o módulo para o upload de arquivos e inserção de marca d'água nas páginas de documentos .pdf.<br><br>
+  É possível inserir a imagem de marca d'água escolhida pelo usuário e fazer o download do arquivo .pdf com a imagem inserida.<br>
  </li>
   
   <br>
